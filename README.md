@@ -34,17 +34,16 @@ This is a full-stack food delivery application built using the MERN stack (Mongo
 ### Steps
 
 1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/nithinsr04/Food-delivery.git
-
-  Navigate to the project directory:
-  ```bash
-  cd Food-delivery
-
+```bash
+git clone https://github.com/nithinsr04/Food-delivery.git
+```
+Navigate to the project directory:
+```bash
+cd Food-delivery
 ```
 2. **Install dependencies for both frontend and backend**:
 ```bash
-  npm install
+npm install
 ```
 3. **Set up environment variables: Create a .env file in the root directory and add the following**:
 
@@ -56,13 +55,13 @@ STRIPE_SECRET_KEY=<your_stripe_secret_key>
 4.**Run the application**:
 Backend:
 ```bash
-    cd backend
-    npm start
+cd backend
+npm start
 ```
 Frontend:
 ```bash 
-    cd frontend
-    npm start
+cd frontend
+npm start
 ```
 5.**Open http://localhost:3000 in your browser to use the app**.
 
