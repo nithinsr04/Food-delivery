@@ -41,33 +41,47 @@ Navigate to the project directory:
 ```bash
 cd Food-delivery
 ```
-2. **Install dependencies for both frontend and backend**:
-```bash
-npm install
-```
-3. **Set up environment variables: Create a .env file in the root directory and add the following**:
-
-```bash
-MONGO_URI=<your_mongo_database_url>
-STRIPE_SECRET_KEY=<your_stripe_secret_key>
-```
-
-4.**Run the application**:
+2. **Install dependencies for both frontend, backend and admin**:
 Backend:
 ```bash
 cd backend
-npm start
+npm 
 ```
 Frontend:
 ```bash 
 cd frontend
 npm start
 ```
-5.**Open http://localhost:3000 in your browser to use the app**.
+Admin:
+```bash
+cd admin
+npm install
+```
+3. **Set up environment variables: Create a .env file in the backend directory and add the following**:
 
-Admin Access
+```bash
+JWT_SECRET=your-secret-word-any
+STRIPE_SECRET_KEY=your-stripe-secret-key
+```
 
-    To access the admin panel, sign in with an admin account.
+4.**Run the application**:
+Backend:
+```bash
+cd backend
+npm run server 
+```
+Frontend:
+```bash 
+cd frontend
+npm run dev
+```
+Admin:
+```bash
+npm run dev
+```
+
+5.**Open localhost port running in your browser to use the app**.
+
 
 Future Enhancements
 
