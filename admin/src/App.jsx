@@ -7,11 +7,10 @@ import List from './pages/List/List'
 import Orders from './pages/Orders/Orders'
 import {ToastContainer} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import { assets } from './assets/assets'
 
 const App = () => {
 
-  const url = assets.url
+  const url = "https://food-delivery-backend-sg39.onrender.com"
 
   return (
     <div>
